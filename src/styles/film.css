@@ -1,0 +1,38 @@
+body {
+    background: #ebebeb
+}
+
+.coming-soon, .now-playing {
+    margin: 15px 15px 0
+}
+
+.coming-soon img, .now-playing img {
+    width: 100%
+}
+
+.coming-soon .info, .now-playing .info {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between
+}
+
+.coming-soon .info h2, .now-playing .info h2 {
+    color: #333;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px
+}
+
+.coming-soon .info p, .now-playing .info p {
+    color: #9a9a9a;
+    font-size: 12px;
+    line-height: 20px
+}
+
+.coming-soon .info strong, .now-playing .info strong {
+    color: #f78360;
+    font-size: 18px;
+    font-weight: 400
+}
