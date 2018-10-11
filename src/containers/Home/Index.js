@@ -47,7 +47,6 @@ class Index extends Component {
                 <Carousel billBoards={this.state.billBoards}/>
                 <NowPlaying nowPlayings={this.state.nowPlayings}/>
                 <ComingSoon comingSoons={this.state.comingSoons}/>
-
             </div>
         );
     }

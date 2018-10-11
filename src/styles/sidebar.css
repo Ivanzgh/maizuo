@@ -20,8 +20,6 @@ nav .nav-wrapper {
 }
 
 nav .nav-wrapper li {
-    display: flex;
-    justify-content: space-between;
     line-height: 50px;
     border-bottom: 1px dotted #333
 }
@@ -29,11 +27,17 @@ nav .nav-wrapper li {
 nav .nav-wrapper li span {
     font-size: 14px;
     color: #9a9a9a;
-    margin-left: 10px
 }
 
 nav .nav-wrapper li i {
+    float: right;
     color: #666;
-    font-size: 14px;
-    margin-right: 10px
+    font-size: 16px;
+}
+
+nav .nav-wrapper li .link {
+    display: block;
+    width: 100%;
+    padding: 0 16px;
+    box-sizing: border-box;
 }

@@ -1,5 +1,5 @@
 import React,{Component} from "react";
-import "../../styles/navbar.css";
+import "../styles/navbar.css";
 import PropTypes from "prop-types";
 
 class Header extends Component {
@@ -13,7 +13,8 @@ class Header extends Component {
                 <header>
                     <div className="navbar-left" onClick={()=>this.props.toggleNav()}>
                         <div className="bar">
-                            <i className="iconfont icon-list" /></div>
+                            <i className="iconfont icon-list" />
+                        </div>
                         <h1>{this.props.title}</h1>
                     </div>
                     <div className="navbar-right">

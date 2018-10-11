@@ -1,5 +1,5 @@
 import React,{Component} from "react";
-import {getDetail} from "../../api/";
+import {getDetail} from "../../api/index";
 import "../../styles/detail.css"
 
 class Detail extends Component {
